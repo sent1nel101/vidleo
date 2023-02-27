@@ -1,0 +1,43 @@
+#root {
+  background-color: #21252a;
+  width: 100vw;
+  height: 100vh;
+  padding: 2rem 0 0;
+}
+
+.flex {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  font-size: 2.25rem;
+}
+
+tr {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+th,
+td {
+  width: 25%;
+  display: flex;
+  align-items: center;
+}
+
+td {
+  font-size: 1.3em;
+}
+
+td > .btn.btn-danger {
+  margin: 0;
+}
